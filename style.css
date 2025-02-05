@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 120px); /* 4 ustunli grid */
+    grid-gap: 15px; /* Bo'shliqlar */
+    padding: 20px;
+    background-color: #e8dff5;
+    border-radius: 10px;
+}
+
+.ota {
+    width: 120px;
+    height: 120px;
+    background-color: purple;
+    display: flex;
+    position: relative;
+}
+
+.ota div {
+    display: flex;
+}
+
+.tepa {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.chap {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    flex-direction: column;
+}
+
+.orta {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.ota div div {
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    margin: 2px;
+}
